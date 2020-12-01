@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Font Property</title>
+    <style>
+        .a {
+            font-size: 32px;
+        }
+
+        .b {
+            font-size: 2em;
+        }
+
+        .c {
+            font-size: large;
+        }
+
+        .d {
+            font-size: small;
+        }
+
+        .font_arial {
+            font-family: '없는 폰트', Arial, sans-serif;
+        }
+
+        .font_roman {
+            font-family: 'Times New Roman', Arial, serif;
+        }
+
+        .font_big {
+            font-size: 2em;
+        }
+
+        .font_italic {
+            font-style: italic;
+        }
+
+        .font_bold {
+            font-weight: bold;
+        }
+
+        .font_center {
+            text-align: center;
+        }
+
+        .font_right {
+            text-align: right;
+        }
+
+        .button {
+            width: 150px;
+            height: 70px;
+            background-color: violet;
+            border: 10px solid pink;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px rgb(143, 88, 143);
+        }
+
+        .button>a {
+            display: block;
+            line-height: 70px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .red {
+            background-color: rgb(228, 76, 76);
+            left: 310px;
+            top: 310px;
+            z-index: 100;
+        }
+
+        .green {
+            background-color: rgb(81, 228, 76);
+            left: 350px;
+            top: 350px;
+            z-index: 10;
+        }
+
+        .blue {
+            background-color: rgb(86, 76, 228);
+            left: 390px;
+            top: 390px;
+            z-index: 1;
+        }
+
+        h2 {
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum</h1>
+    <p class="a">Lorem ipsum</p>
+    <p class="b">Lorem ipsum</p>
+    <p class="c">Lorem ipsum</p>
+    <p class="d">Lorem ipsum</p>
+    <h1 class="font_arial">Lorem ipsum</h1>
+    <p class="font_roman">Lorem ipsum</p>
+    <div class="button">
+        <a href="#" class="font_big font_italic font_bold font_center">Click</a>
+        <a href="#" class="font_bold font_right">2020.11.30</a>
+    </div>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+    <hr>
+    <h1>Lorem ipsum dolor amet</h1>
+    <h2>
+        <h2 class="bb"></h2>
+        <h2 class="bb"></h2>
+        <h2 class="bb"></h2>
+    </h2>
+    <h1>Lorem ipsum dolor amet</h1>
+</body>
+
+</html>

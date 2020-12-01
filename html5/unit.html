@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Property Basic</title>
+    <style>
+        * {
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            font-size: 3.0em;
+            background-color: rgb(221, 81, 81);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            background-color: #0094FF;
+        }
+
+        p {
+            background-color: hsl(135, 57%, 60%);
+        }
+
+        body {
+            background-image: url('images/Capture.jpg');
+            background-repeat: no-repeat;
+            background-color: rgb(161, 192, 206);
+            background-attachment: fixed;
+            background-position: bottom;
+        }
+        #box {
+            /* display: inline;
+            background-color: pink;
+            width: 300px; height: 50px;
+            margin: 10px; */
+            /* visibility: hidden; */
+            background-color: black;
+            color: white;
+            opacity: 0.2;
+        }
+
+        table {
+            visibility: collapse;
+        }
+
+        #attr {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border: 20px solid black;
+            margin: 10px;
+            padding: 30px;
+        }
+
+        #a {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            margin: 0 30px;
+            padding: 0 30px;
+        }
+
+        div#box1 {
+            background-color: yellow;
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            border: 10px solid black;
+            background: lightgreen;
+            box-sizing: content-box;
+            border-width: thick;
+            border-style: dashed;
+            border-radius: 20px;
+        }
+
+        div#box2 {
+            background-color: lightblue;
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            border: 10px solid black;
+            background: lightgreen;
+            box-sizing: border-box;
+            border-width: thin;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <h2>consectetur adipiscing elit. Sed nec purus elit, nec cursus dolor.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus elit.</p>
+    <table>
+        <tr>
+            <td>Test</td>
+            <td>Test</td>
+        </tr>
+        <tr>
+            <td>Test</td>
+            <td>Test</td>
+        </tr>
+        <tr>
+            <td>Test</td>
+            <td>Test</td>
+        </tr>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec purus elit.</p>
+    <hr>
+    <span>Dummy</span>
+    <div id="box">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    </div>
+    <span>Dummy</span>
+    <div id="attr">Padding Padding</div>
+    <div id="a"></div>
+    <div id="box1"></div>
+    <div id="box2"></div>
+</body>
+
+</html>

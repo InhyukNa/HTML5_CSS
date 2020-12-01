@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <style type='text/css'>
+        h2,
+        body {
+            color: cyan;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            color: violet;
+        }
+
+        div#wrapper {
+            width: 300px;
+            margin-left: 15px;
+        }
+
+        label {
+            display: inline-block;
+            width: 80px;
+        }
+
+        h1 {
+            color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>로그인 폼</h1>
+        <!-- jsp코드 -->
+        <form method='post' action="LoginProcess.jsp">
+            <p>
+                <label for="id">아이디</label>
+                <input type="text" name='id'>
+            </p>
+            <p>
+                <label for="pwd">패스워드</label>
+                <input type="text" name='pwd'>
+            </p>
+            <p style="text-align:right">
+                <button>로그인</button>
+            </p>
+        </form>
+        <h2>HTML5</h2>
+    </div>
+    <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
+
+</html>
